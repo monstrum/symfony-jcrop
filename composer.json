@@ -1,0 +1,43 @@
+{
+    "name": "monstrum/symfony-jcrop-bundle",
+    "type": "symfony-bundle",
+    "description": "Easy integration of jCrop into symfony2",
+    "keywords": ["form", "bootstrap", "bootstrap form", "template", "jcrop"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Erwin Eu",
+            "email": "eu.erwin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Monstrum\\SymfonyJCropBundle\\": ""
+        }
+    },
+    "target-dir": "Monstrum/SymfonyJCropBundle",
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/tapmodo/Jcrop"
+        }
+    ],
+    "require": {
+        "tapmono/jcrop": "^2.0"
+    },
+    "suggest":  {
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "Monstrum\\SymfonyJCropBundle\\Composer\\ScriptHandler::postInstallSymlinkSymfonyJCrop"
+        ],
+        "post-update-cmd": [
+            "Monstrum\\SymfonyJCropBundle\\Composer\\ScriptHandler::postInstallSymlinkSymfonyJCrop"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}

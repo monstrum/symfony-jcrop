@@ -16,14 +16,8 @@
         }
     },
     "target-dir": "Monstrum/SymfonyJCropBundle",
-    "repositories": [
-        {
-          "type": "vcs",
-          "url": "https://github.com/monstrum/Jcrop"
-        }
-    ],
     "require": {
-        "monstrum/Jcrop": "v2.0.1"
+        "monstrum/jcrop": "^2.0.1"
     },
     "suggest":  {
     },

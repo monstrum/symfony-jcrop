@@ -19,11 +19,11 @@
     "repositories": [
         {
           "type": "vcs",
-          "url": "https://github.com/tapmodo/Jcrop"
+          "url": "https://github.com/monstrum/Jcrop"
         }
     ],
     "require": {
-        "tapmono/jcrop": "^2.0"
+        "monstrum/Jcrop": "v2.0.1"
     },
     "suggest":  {
     },

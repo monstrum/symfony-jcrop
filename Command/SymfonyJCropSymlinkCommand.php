@@ -25,7 +25,7 @@ use Mopa\Bridge\Composer\Util\ComposerPathFinder;
 class SymfonyJCropSymlinkCommand extends ContainerAwareCommand
 {
     public static $monstrumSymfonyJCropBundleName = "monstrum/symfony-jcrop-bundle";
-    public static $jcropName = "tapmono/jcrop";
+    public static $jcropName = "monstrum/jcrop";
     public static $sourceSuffix = 'dist';
     public static $targetSuffix = 'Resources/public';
     public static $pathName = 'SymfonyJCrop';
